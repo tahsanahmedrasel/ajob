@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+.contener{
+    width: 70%;
+    margin: auto;
+}
+.mumber{
+    width: 22%;
+    text-align: center;
+    background: blue;
+    padding: 20px;
+    float: left;
+}
+.text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.texth1{
+    font: size 50px;;
+}
+.team-secation{
+    background: aqua;
+    color: white;
+    padding: 80px 0;
+}
+.bio{
+    width: 90%;
+    margin: auto;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    position: relative;
+    bottom: 20px;
+
+}
+.mumbers::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
